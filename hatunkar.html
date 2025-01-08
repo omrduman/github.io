@@ -186,10 +186,29 @@
           <input type="text" id="address" required="">
         </div>
         <div class="form-actions">
-         <a href="https://www.ersag.com.tr/account.asp?mod=myaccount&sub=edit&action=register&p=2&red=&sponsor=1253575">Form Gönder</a>
+         <button type="submit" onclick="hrefFunction()">Formu Gönder</button>
         </div>
       </form>
 
+   <script>
+            
+            //Function demonstrating the Href Method
+            
+            function hrefFunction(){
+                windows.location.href="https://www.ersag.com.tr/account.asp?mod=myaccount&sub=edit&action=register&p=2&red=&sponsor=1253575";
+            }
+            
+            //Function demonstrating the Replace Method
+            
+            function replaceFunction(){
+                windows.location.replace("https://www.ersag.com.tr/account.asp?mod=myaccount&sub=edit&action=register&p=2&red=&sponsor=1253575");
+            }
+            
+        </script>
+
+
+
+        
       <div class="icon-buttons">
         <a id="whatsapp-link" href="https://wa.me/***" target="_blank" class="button whatsapp">
           <img src="	https://uyelikformu.netlify.app/whatsapp.png" alt="WhatsApp">
