@@ -171,7 +171,15 @@
         <p>Sponsor: <span id="sponsor-name" style="color: rgb(37, 211, 102);">Hatun KAR</span></p>
         <p>Sponsor Tel: <span id="sponsor-gsm" style="color: rgb(37, 211, 102);">0555 555 55 55</span></p>
       </div>
+<script>
+  function simulateAnchorClick(href) {
+    const a = document.createElement('a');
+    a.href = href;
+    a.click();
+  }
+</script>
 
+        
       <form id="form">
         <div class="form-group">
           <label for="full_name">Ad Soyad:</label>
@@ -186,7 +194,7 @@
           <input type="text" id="address" required="">
         </div>
         <div class="form-actions">
-         <button type="submit" onclick="window.location.href='https://www.ersag.com.tr/account.asp?mod=myaccount&sub=edit&action=register&p=2&red=&sponsor=1253575'">Formu Gönder</button>
+         <button type="submit" onclick="simulateAnchorClick('https://www.ersag.com.tr/account.asp?mod=myaccount&sub=edit&action=register&p=2&red=&sponsor=1253575')">Formu Gönder</button>
         </div>
       </form>
 
