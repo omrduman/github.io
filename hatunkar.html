@@ -69,21 +69,22 @@
         }
         .form-container .social-icons a {
             text-decoration: none;
-            color: #fff;
-            width: 50px;
-            height: 50px;
+            color: #000;
             display: flex;
             align-items: center;
             justify-content: center;
-            border-radius: 50%;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 5px 10px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             font-size: 14px;
             font-weight: bold;
         }
-        .form-container .social-icons .whatsapp {
-            background: #25D366;
-        }
-        .form-container .social-icons .instagram {
-            background: #E4405F;
+        .form-container .social-icons a img {
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
         }
     </style>
 </head>
@@ -101,8 +102,12 @@
             <button type="submit">Formu Gönder</button>
         </form>
         <div class="social-icons">
-            <a href="#" class="whatsapp">WA</a>
-            <a href="#" class="instagram">IG</a>
+            <a href="#" class="whatsapp">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">WhatsApp
+            </a>
+            <a href="#" class="instagram">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">Instagram
+            </a>
         </div>
     </div>
 </body>
