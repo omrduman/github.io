@@ -172,11 +172,10 @@
         <p>Sponsor Tel: <span id="sponsor-gsm" style="color: rgb(37, 211, 102);">0555 555 55 55</span></p>
       </div>
 <script>
-  function simulateAnchorClick(href) {
-    const a = document.createElement('a');
-    a.href = href;
-    a.click();
-  }
+function myFunction() {
+  location.replace("https://www.ersag.com.tr/account.asp?mod=myaccount&sub=edit&action=register&p=2&red=&sponsor=1253575")
+}
+  
 </script>
 
         
@@ -194,7 +193,7 @@
           <input type="text" id="address">
         </div>
         <div class="form-actions">
-         <button type="submit" onclick="open('https://www.ersag.com.tr/account.asp?mod=myaccount&sub=edit&action=register&p=2&red=&sponsor=1253575')">Formu Gönder</button>
+         <button type="submit" onclick="myFunction()">Formu Gönder</button>
         </div>
       </form>
 
